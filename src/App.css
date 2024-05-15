@@ -1,0 +1,152 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+.main{
+    overflow-x: hidden;
+}
+
+
+.nav{
+    background-color:rgb(40, 40, 218);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.search input{
+    border: none;
+    width: 30rem;
+    height: 28px;
+    border-radius: 5px;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    flex-wrap: wrap;
+
+}
+
+.right div{
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.right div:hover{
+    background-color: rgb(43, 30, 30);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    perspective: 800px;
+    margin-left: 2.5rem;
+}
+
+.slider img{
+    cursor: pointer;
+    border-radius: 5%;
+    border: 2px solid rgb(96, 96, 156);
+    transition: transform 0.3s ease;
+}
+
+.slider img:hover{
+    transform: translateZ(100px);
+    border: 2px solid yellow;
+}
+
+
+.slider2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    perspective: 800px;
+    margin-left: 2.5rem;
+}
+
+.slider2 img{
+    cursor: pointer;
+    border-radius: 5%;
+    border: 2px solid rgb(96, 96, 156);
+    transition: transform 0.3s ease;
+}
+
+.slider2 img:hover{
+    transform: translateZ(100px);
+    border: 2px solid yellow;
+}
+
+.img{
+    perspective: 100px;
+}
+.img img{
+    cursor: pointer;
+    border-radius: 5%;
+    border: 2px solid rgb(96, 96, 156);
+    transition: transform 0.3s ease;
+}
+
+.img img:hover{
+    transform: translateZ(10px);
+    border: 2px solid yellow;
+}
+
+
+
+.btn{
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: yellow;
+    border-radius: 10px;
+    margin: 2rem;
+    cursor: pointer;
+    border: 2px solid blue;
+}
+
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
